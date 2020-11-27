@@ -14,6 +14,8 @@ return array(
     'in'            => "contiene un valore non valido",
     'notIn'         => "contiene un valore non valido",
     'ip'            => "non è un indirizzo IP valido",
+    'ipv4'          => "non è un indirizzo IPv4 valido",
+    'ipv6'          => "non è un indirizzo IPv6 valido",
     'email'         => "non è un indirizzo email valido",
     'url'           => "non è una URL",
     'urlActive'     => "deve essere un dominio attivo",
@@ -32,4 +34,9 @@ return array(
     'lengthMin'     => "deve essere lungo almeno %d caratteri",
     'lengthMax'     => "non deve superare %d caratteri",
     'instanceOf'    => "deve essere un'istanza di '%s'",
+    'containsUnique' => "deve contenere solo elementi unici",
+    'requiredWith'   => "è obbligatorio",
+    'requiredWithout'=> "è obbligatorio",
+    'subset'         => "contiene un elemento che non fa parte della lista",
+    'arrayHasKeys'   => "non contiene tutti gli indici richiesti",
 );
